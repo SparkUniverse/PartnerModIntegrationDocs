@@ -44,6 +44,7 @@ are bolded in the fourth column of this table.
 | 1.21.5            |   ✅    |   ✅   |    ✅     | 1.21.5                        |
 | 1.21.6            |   ✅    |   ❌   |    ❌     | 1.21.6                        |
 | 1.21.7            |   ✅    |   ❌   |    ❌     | 1.21.7                        |
+| 1.21.8            |   ✅    |   ❌   |    ❌     | 1.21.8                        |
 
 ## Bundling the Partner Mod
 
@@ -212,6 +213,9 @@ tasks.jar {
 </details>
 
 ## Partner Mod Integration Changelog
+
+### v1.0.4 - 2025-07-17
+- Added support for Fabric on Minecraft 1.21.8
 
 ### v1.0.3 - 2025-07-01
 - Added support for Fabric on Minecraft 1.21.7
