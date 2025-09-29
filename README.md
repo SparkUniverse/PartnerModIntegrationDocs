@@ -43,8 +43,9 @@ are bolded in the fourth column of this table.
 | 1.21.4            |   ✅    |   ✅   |    ✅     | 1.21.4                        |
 | 1.21.5            |   ✅    |   ✅   |    ✅     | 1.21.5                        |
 | 1.21.6            |   ✅    |   ❌   |    ❌     | 1.21.6                        |
-| 1.21.7            |   ✅    |   ❌   |    ❌     | 1.21.7                        |
-| 1.21.8            |   ✅    |   ❌   |    ❌     | 1.21.8                        |
+| 1.21.7            |   ✅    |   ✅   |    ✅     | 1.21.7                        |
+| 1.21.8            |   ✅    |   ✅   |    ✅     | 1.21.8                        |
+| 1.21.9            |   ✅    |   ❌   |    ❌     | 1.21.9                        |
 
 ## Bundling the Partner Mod
 
@@ -213,6 +214,14 @@ tasks.jar {
 </details>
 
 ## Partner Mod Integration Changelog
+
+### v1.0.5 - 2025-09-30
+- Added support for Fabric on Minecraft 1.21.9
+- Added support for NeoForge and Forge on Minecraft 1.21.7 and 1.21.8
+- Added a fixed label (`<essential_partner_integration_button>`) to the custom button, so it can be identified by mods
+  which provide a custom menu screen
+- Fixed the mouse position override, which is active while the modal is open so regular screen elements do not appear as
+  hovered, to also apply to custom `Screen.render` methods
 
 ### v1.0.4 - 2025-07-17
 - Added support for Fabric on Minecraft 1.21.8
