@@ -14,7 +14,7 @@ val essentialPartnerModDep = "gg.essential:partner-mod-integration-$platform:1.0
 
 if (platform.isFabric) {
     dependencies {
-        include(essentialPartnerModDep)
+        modRuntimeOnly(include(essentialPartnerModDep)!!)
     }
 } else {
     val essentialPartnerModPackage = "com.example.mod.essentialpartnermod"
