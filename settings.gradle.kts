@@ -16,7 +16,7 @@ include(":examples:1.8.9-forge")
 include(":examples:1.12.2-forge")
 include(":examples:1.16.5-forge")
 include(":examples:1.20.4-forge")
-include(":examples:1.21-fabric")
+include(":examples:1.21.1-fabric")
 
 include(":examples:multiversion")
 project(":examples:multiversion").buildFileName = "root.gradle.kts"
