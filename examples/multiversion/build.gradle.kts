@@ -10,7 +10,7 @@ plugins {
 
 loom.noServerRunConfigs()
 
-val essentialPartnerModDep = "gg.essential:partner-mod-integration-$platform:1.0.5"
+val essentialPartnerModDep = "gg.essential:partner-mod-integration-$platform:1.0.6"
 
 if (platform.isFabric) {
     dependencies {
