@@ -216,6 +216,9 @@ tasks.jar {
 
 ## Partner Mod Integration Changelog
 
+### v1.0.7 - 2026-04-27
+- Added support for Fabric on Minecraft 26.1
+
 ### v1.0.6 - 2026-02-16
 - Added support for Fabric on Minecraft 1.21.11
 

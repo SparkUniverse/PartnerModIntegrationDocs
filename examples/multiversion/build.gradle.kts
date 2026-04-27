@@ -10,7 +10,7 @@ plugins {
 
 loom.noServerRunConfigs()
 
-val essentialPartnerModDep = "gg.essential:partner-mod-integration-$platform:1.0.6"
+val essentialPartnerModDep = "gg.essential:partner-mod-integration-$platform:1.0.7"
 
 if (platform.isFabric) {
     dependencies {
@@ -73,6 +73,6 @@ if (platform.isFabric) {
 }
 
 val distFolder by tasks.creating(Copy::class) {
-    from(tasks.remapJar.map { it.archiveFile })
+    from(tasks.named<org.gradle.jvm.tasks.Jar>(if (platform.mcVersion >= 260100) "jar" else "remapJar").map { it.archiveFile })
     into(parent!!.layout.buildDirectory.dir("dist"))
 }
